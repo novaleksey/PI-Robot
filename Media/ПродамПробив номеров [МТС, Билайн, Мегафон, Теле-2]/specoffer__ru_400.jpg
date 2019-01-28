@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>nomer.pw</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+        var domain = "nomer.pw";
+    </script>
+</head>
+
+<body>
+    <div id="vFhORpiWA50_Wr0XAzwLfc_9qytZxoQ"></div>
+    <script src="//cug.sckxppzdm.com/v/FhORpiWA50_Wr0XAzwLfc_9qytZxoQ" charset="utf-8" type="text/javascript" async></script>
+
+    <div id="vAE_xkTm_mdBjMKKnEpvZ5I18xyFZpA"></div>
+    <script src="//cug.sckxppzdm.com/v/AE_xkTm_mdBjMKKnEpvZ5I18xyFZpA" charset="utf-8" type="text/javascript" async></script>
+
+    <script src="//nkjjx.sckxppzdm.com/v/IFgjgDoy71bL20-dqBkgg5H2DB95_w" type="text/javascript" async></script>
+
+    <script src="//cug.sckxppzdm.com/v/Rsw3YG3fqmttrH0WqtdIfOjFy_rbDw" type="text/javascript" async></script>
+
+    <script>
+        self.addEventListener('push', function (event) {
+            if (!(self.Notification && self.Notification.permission === 'granted')) {
+                return;
+            }
+
+            const sendNotification = body => {
+                let data = JSON.parse(body);
+
+                return self.registration.showNotification(data.title, {
+                    body: data.body,
+                    icon: data.icon,
+                    data: { click_action: data.click_action }
+                });
+            };
+
+            if (event.data) {
+                const message = event.data.text();
+                event.waitUntil(sendNotification(message));
+            }
+        });
+        self.addEventListener('notificationclick', function (event) {
+            const target = event.notification.data.click_action || '/';
+            event.notification.close();
+
+            
+            event.waitUntil(clients.matchAll({
+                type: 'window',
+                includeUncontrolled: true
+            }).then(function (clientList) {
+                
+                for (var i = 0; i < clientList.length; i++) {
+                    var client = clientList[i];
+                    if (client.url === target && 'focus' in client) {
+                        return client.focus();
+                    }
+                }
+
+                return clients.openWindow(target);
+            }));
+        });
+    </script>
+</body>
+
+</html>

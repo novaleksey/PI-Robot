@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="ru-RU" dir="LTR" class="Public NoJs XenBase LoggedOut NoSidebar   RightSidebar  Responsive" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122340565-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122340565-1');
+</script>
+
+
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	
+		<base href="https://help-hack.site/" />
+		<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://help-hack.site/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>Ошибка | Форум Хакеров | Хакерский форум</title>
+	
+	
+	<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=7&amp;dir=LTR&amp;d=1548064747" />
+	<link rel="stylesheet" href="css.php?css=MrScrollUp,dark_azucloud,fusiongamer_panel,login_bar,node_list,notices,panel_scroller,rellect_favicon,xb&amp;style=7&amp;dir=LTR&amp;d=1548064747" />
+
+
+	
+	
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Oswald" rel="stylesheet"> 
+	
+	
+	
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	
+	
+	
+	<script>
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-122340565-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+		<script src="js/jquery/jquery-1.11.0.min.js"></script>	
+		
+	<script src="js/xenforo/xenforo.js?_v=34e98bcf"></script>
+<script src="js/xenforo/dorainbow.js"></script>
+	<script src="js/rellect/FaviconForLinks/FaviconForLinks.min.js?_v=34e98bcf"></script>
+	<script src="js/mrscrollup/raketa.js?_v=34e98bcf"></script>
+
+
+
+
+
+<script>
+	XenForo.rellect = XenForo.rellect || {};
+	XenForo.rellect.FaviconExcluded = [];
+	
+		
+			XenForo.rellect.FaviconExcluded.push(0);
+		
+	
+		
+	
+		
+			XenForo.rellect.FaviconExcluded.push(2);
+		
+	
+		
+	
+</script>
+
+
+	
+	<link rel="apple-touch-icon" href="https://help-hack.site/styles/fusiongamer/xenforo/logo.og.png" />
+	<link rel="alternate" type="application/rss+xml" title="RSS-лента для Форум Хакеров | Хакерский форум" href="forums/-/index.rss" />
+	
+	<meta name="robots" content="noindex" />
+
+
+
+
+	<meta name="copyright" content="Help-Hack - форум хакеров">
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="xbOffCanvasContainer">
+
+
+
+	
+		
+
+
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Вход</a></label>  / <a href="register/" class="xbRegisterLink">Регистрация</a>
+				
+			</h3>
+			
+			<span class="helper"></span>
+			
+			
+		</div>
+	</div>
+</div>
+	
+
+
+
+
+<div class="xbBodyhelper"></div>
+
+
+<div id="headerMover">
+<header>
+	
+
+
+<div id="header">
+	
+		<div id="logoBlock">
+		<div class="pageWidth">
+			<div class="pageContent">
+			
+
+			
+			<div id="logo">
+				<a href="https://help-hack.site">
+					<span></span>
+					
+					<img src="styles/fusiongamer/xenforo/logo.png" class="desktopLogo" alt="Форум Хакеров | Хакерский форум" />
+					
+					
+				</a>
+			</div>
+			
+			
+			<span class="helper"></span>
+			
+
+<div class="fusionGamerPanel">
+<h2>Войти или зарегистрироваться</h2>
+<form action="login/login" method="post" class="xenForm " id="loginFG">
+	<dl class="ctrlUnit">
+		<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" placeholder="Ваше имя или e-mail" /></dd>
+	</dl>
+	<dl class="ctrlUnit">
+		<dd>
+			<ul>
+				<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" placeholder="****" />
+				</li>
+			</ul>
+		</dd>
+	</dl>	
+	<div class="fusionGamerPanelControls">
+		<label for="ctrl_remember" class="rememberPassword" style="float: left;"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Запомнить меня</label>
+		<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Забыли пароль?</a></div>
+	</div>	
+
+	<ul class="fusionGamerPanelLinks">
+		<li class="navTab">
+			<input type="submit" class="navLink button" value="Вход" tabindex="104" data-loginPhrase="Вход" data-signupPhrase="Вход" />
+		</li>
+		
+		<li class="navTab">
+			<a href="register/" class="navLink">Регистрация</a>
+		</li>
+		
+	</ul>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/attachments/screenshot_2016-05-18-12-43-05-png.45/" />
+	<input type="hidden" name="_xfToken" value="" />
+</form>
+</div>
+
+		</div>
+	</div>
+</div>	
+		
+
+
+
+<div id="navigation" class="pageWidth withSearch">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+<div class="navTabsInner">
+	
+	
+	<div class="xbOffCanvasControls">
+	<a onclick="return false;" class="slideLeft xbOffCanvasToggle" href="#"><i class="fa fa-bars fa-fw"></i> <span class="menuText">Меню</span></a>
+	<a href="find-new/posts" rel="nofollow" class="xbOffCanvasNew Tooltip" title="Последние сообщения"> <i class="fa fa-commenting fa-fw"></i><span>Последние сообщения</span></a>
+
+	
+
+</div>
+		
+				
+	<ul class="publicTabs">
+	
+	
+
+	
+
+		
+	
+		<!-- home -->
+		
+			<li class="navTab home PopupClosed"><a href="https://help-hack.site" class="navLink">Главная</a></li>
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+		
+		<!-- forums -->
+		
+		
+			
+			<li class="navTab forums Popup PopupControl PopupClosed">
+			
+				
+				<a href="https://help-hack.site/" class="navLink">Форум</a>
+				<a href="https://help-hack.site/" class="SplitCtrl" rel="Menu"></a>
+				<div class="xbTabPopupArrow">
+					<span class="arrow"><span></span></span>
+				</div>
+				
+				
+				<div class="Menu JsOnly tabMenu forumsTabLinks">
+				
+
+				
+					<div class="primaryContent menuHeader">
+						<h3>Форум</h3>
+						<div class="muted">Быстрые ссылки</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						<li><a href="search/?type=post">Поиск сообщений</a></li>
+						
+						<li><a href="find-new/posts" rel="nofollow">Последние сообщения</a></li>
+					
+					</ul>
+				
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+			
+				<li class="navTab custom-tab-2 PopupClosed">
+					<a href="categories/Хакинг-Раздел-для-хакера.229/" class="navLink">Haking</a>
+					<div class="xbTabPopupArrow">
+						<span class="arrow"><span></span></span>
+					</div>
+					
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-3 PopupClosed">
+					<a href="categories/ehlektronnye-dengi.253/" class="navLink">BlackMoney</a>
+					<div class="xbTabPopupArrow">
+						<span class="arrow"><span></span></span>
+					</div>
+					
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-8 PopupClosed">
+					<a href="categories/banki-obnalichivanie-instrumenty.261/" class="navLink">Banks</a>
+					<div class="xbTabPopupArrow">
+						<span class="arrow"><span></span></span>
+					</div>
+					
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-9 PopupClosed">
+					<a href="categories/sim-karty-i-mobilnye-perevody.267/" class="navLink">Mobile</a>
+					<div class="xbTabPopupArrow">
+						<span class="arrow"><span></span></span>
+					</div>
+					
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-11 PopupClosed">
+					<a href="categories/torgovaja-ploschadka-kuplja-prodazha.273/" class="navLink">Sale</a>
+					<div class="xbTabPopupArrow">
+						<span class="arrow"><span></span></span>
+					</div>
+					
+				</li>
+			
+		
+		
+		
+		
+		<!-- members -->
+		
+			
+			<li class="navTab members Popup PopupControl PopupClosed">
+			
+			
+				<a href="https://help-hack.site/members/" class="navLink">Пользователи</a>
+				<a href="https://help-hack.site/members/" class="SplitCtrl" rel="Menu"></a>
+				<div class="xbTabPopupArrow">
+					<span class="arrow"><span></span></span>
+				</div>
+				
+				
+				<div class="Menu JsOnly tabMenu membersTabLinks">
+				
+				
+					<div class="primaryContent menuHeader">
+						<h3>Пользователи</h3>
+						<div class="muted">Быстрые ссылки</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						<li><a href="members/">Выдающиеся пользователи</a></li>
+						<li><a href="members/list">Зарегистрированные пользователи</a></li>
+						<li><a href="online/">Сейчас на форуме</a></li>
+						<li><a href="recent-activity/">Недавняя активность</a></li>
+						
+					
+					</ul>
+				
+				</div>
+			</li>
+						
+
+		<!-- extra tabs: end -->
+		
+
+		
+
+		
+		
+		
+
+		<!-- responsive popup -->
+		<li class="navTab navigationHiddenTabs Popup PopupControl PopupClosed" style="display:none">	
+						
+			<a rel="Menu" class="navLink NoPopupGadget"><span class="menuIcon">Меню</span></a>
+			
+			<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+		</li>
+		
+		
+			
+		<!-- no selection -->
+		
+			<li class="navTab selected"><div class="tabLinks"></div></li>
+		
+		
+	</ul>
+	
+
+	
+		
+				
+		
+		
+	<ul class="visitorTabs">
+		
+			
+			
+			
+						
+			<li class="navTab PopupClosed xbGuestLogin">
+					<label for="LoginControl"><a href="login/" class=" navLink"> <span class="xbVisitorText">Вход</span></a></label>
+			</li>
+			
+			<li class="navTab PopupClosed xbGuestRegister">
+					<a href="register/" class="navLink"> <span class="xbVisitorText">Регистрация</span></a>
+			</li>
+			
+			
+			
+						
+			
+		
+		
+	</ul>
+			
+				
+</div>
+</div>
+
+
+
+<div class="xbSubNavHelper"></div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+
+	
+
+
+	
+	
+		
+
+<div id="searchBar" class="pageWidth">
+	
+	<span id="QuickSearchPlaceholder" title="Поиск"><i class="fa fa-search fa-fw"></i></span>
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Поиск..." title="Введите параметры поиска и нажмите ввод" id="QuickSearchQuery" />				
+				<input type="submit" value="&#xf002;" class="xbSearchIcon Tooltip" title="Искать" /></span>
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Искать только в заголовках</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Сообщения пользователя:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Имена участников (разделяйте запятой).</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Новее чем:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit sectionFooter">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Поиск" class="button primary Tooltip" title="Искать" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Быстрый поиск" data-tipclass="flipped"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+							<div class="Menu">
+								<div class="xbSearchPopupArrow">
+									<span class="arrow"><span></span></span>
+								</div>
+								<div class="primaryContent menuHeader">
+									<h3>Быстрый поиск</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Последние сообщения</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Расширенный поиск">Больше...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+	
+</div>
+
+	
+	
+</header>
+
+<div id="content" class="error">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			
+			
+			<!-- main content area -->
+			
+			
+
+			
+  <script type="text/javascript">
+	function addLink() {
+		var body_element = document.getElementsByTagName('body')[0];
+		var selection;
+		selection = window.getSelection();
+		//var pagelink = "[url="+document.location.href+"]© Источник: https://Help-Hack.site[/url]";
+		var pagelink = "<br />© Источник: https://Help-Hack.site "+document.location.href+"";
+		var copytext = selection + pagelink;
+		var newdiv = document.createElement('div');
+		newdiv.style.position='absolute';
+		newdiv.style.left='-99999px';
+		body_element.appendChild(newdiv);
+		newdiv.innerHTML = copytext;
+		selection.selectAllChildren(newdiv);
+		window.setTimeout(function() {
+		body_element.removeChild(newdiv);
+		},0);
+	}
+	document.oncopy = addLink;
+  </script>
+
+
+  <script type="text/javascript">
+    $(document).bind('copy', function(e){
+      alert('Использование материалов разрешается при условии ссылки на https://Help-Hack.site  Для интернет-изданий обязательной является прямая, открытая для поисковых систем, гиперссылка в первом абзаце на цитируемую статью.');
+      return false;
+    });
+  </script>
+
+
+<SCRIPT LANGUAGE="JavaScript"> 
+  document.oncontextmenu = test; 
+    function test() { 
+      return false 
+    } 
+</SCRIPT> 
+
+
+<script type="text/javascript">
+function preventSelection(element){
+  var preventSelection = false;
+ 
+  function addHandler(element, event, handler){
+    if (element.attachEvent) 
+      element.attachEvent('on' + event, handler);
+    else 
+      if (element.addEventListener) 
+        element.addEventListener(event, handler, false);
+  }
+  function removeSelection(){
+    if (window.getSelection) { window.getSelection().removeAllRanges(); }
+    else if (document.selection && document.selection.clear)
+      document.selection.clear();
+  }
+  function killCtrlA(event){
+    var event = event || window.event;
+    var sender = event.target || event.srcElement;
+ 
+    if (sender.tagName.match(/INPUT|TEXTAREA/i))
+      return;
+ 
+    var key = event.keyCode || event.which;
+    if (event.ctrlKey && key == 'A'.charCodeAt(0))  // 'A'.charCodeAt(0) можно заменить на 65
+    {
+      removeSelection();
+ 
+      if (event.preventDefault) 
+        event.preventDefault();
+      else
+        event.returnValue = false;
+    }
+  }
+  addHandler(element, 'mousemove', function(){
+    if(preventSelection)
+      removeSelection();
+  });
+  addHandler(element, 'mousedown', function(event){
+    var event = event || window.event;
+    var sender = event.target || event.srcElement;
+    preventSelection = !sender.tagName.match(/INPUT|TEXTAREA/i);
+  });
+  addHandler(element, 'mouseup', function(){
+    if (preventSelection)
+      removeSelection();
+    preventSelection = false;
+  });
+  addHandler(element, 'keydown', killCtrlA);
+  addHandler(element, 'keyup', killCtrlA);
+}
+ 
+preventSelection(document);
+</script>
+
+
+  <script type="text/javascript">
+    $(document).bind('copy', function(e){
+      return false;
+    });
+  </script>
+
+			
+						
+						<div class="" style=""><a href="https://www.bestchange.ru/?p=500639" target="_blank"> <img src="reklama/obmen.gif" width="100%" height="100%" /> </a> 
+ </br></div>
+						
+						
+						
+							
+						<div class="breadBoxTop ">
+							
+							
+
+<nav>
+	
+
+
+	
+	<fieldset class="breadcrumb">
+		
+		
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Открыть быструю навигацию"><i class="fa fa-sitemap"></i></a> 
+		
+			
+		<div class="boardTitle"><strong>Форум Хакеров | Хакерский форум</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://help-hack.site" class="crumb" rel="up" itemprop="url"><span itemprop="title">Главная</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+			
+			
+		</span>
+	</fieldset>
+</nav>
+						</div>
+						
+						
+						
+						
+						
+					
+						<!--[if lt IE 8]>
+							<p class="importantMessage">Вы используете устаревший браузер. Этот и другие сайты могут отображаться в нём некорректно.<br />Необходимо обновить браузер или попробовать использовать <a href="https://www.google.com/chrome/browser/" target="_blank">другой</a>.</p>
+						<![endif]-->
+
+						
+						
+
+
+
+
+
+<div class="PanelScroller Notices" data-vertical="0" data-speed="400" data-interval="4000">
+	<div class="scrollContainer">
+		<div class="PanelContainer">
+			<ol class="Panels">
+				
+					<li class="panel Notice DismissParent notice_5 " data-notice="5">
+	
+		<div class="blockImage image">
+			<img src="/data/banners/1.jpg" alt="" />
+		</div>
+	
+	<div class="baseHtml noticeContent hasImage">✔➡Гарант Форума - Защита ваших сделок - комиссия  5%
+<br>
+<br>
+<center><a href="conversations/add?to=Garant-Services"><img src="/data/banners/1.jpg" alt="Гарант форума Хелп-Хак" width="50%" height="50%" border="0" /></a></center></div>
+	
+	
+</li>
+				
+			</ol>
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+
+	
+	
+	<div class="FloatingContainer Notices">
+		
+			<div class="DismissParent Notice notice_1 " data-notice="1" data-delay-duration="10000" data-display-duration="600000" data-auto-dismiss="0">
+				<div class="floatingItem dark">
+					
+					
+						<div class="floatingImage avatar">
+							<img src="styles/fusiongamer/xenforo/avatars/avatar_s.png" alt="" />
+						</div>
+					
+					<div class="hasImage baseHtml noticeContent">
+						Важно!
+<br>
+<br>
+Для получения доступа ко всем разделам форума необходимо пройти 
+<br>
+
+<center><a href="/register" title="Регистрация на форуме">Регистрацию</a></center>
+					</div>
+				</div>
+			</div>
+		
+			<div class="DismissParent Notice notice_6 " data-notice="6" data-delay-duration="0" data-display-duration="0" data-auto-dismiss="0">
+				<div class="floatingItem dark">
+					
+						<a href="account/dismiss-notice?notice_id=6"
+							title="Скрыть объявление" class="DismissCtrl Tooltip" data-offsetx="7" data-tipclass="flipped"><i class="fa fa-times" aria-hidden="true"></i></a>
+					
+						<div class="floatingImage avatar">
+							<img src="styles/fusiongamer/xenforo/avatars/avatar_s.png" alt="" />
+						</div>
+					
+					<div class="hasImage baseHtml noticeContent">
+						➡Гость 
+<br>
+⚠Внимание! ДОМЕН 
+<br>
+help-hack.INFO 
+<br>
+ЗАБЛОКИРОВАН РКН,
+<br>
+ ОБНОВИТЕ СВОИ ЗАКЛАДКИ!
+<br>
+НОВЫЙ АДРЕС САЙТА
+<br>
+<center><a href="https://help-hack.site"><span></span> https://help-hack.SITE</a></center>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+						
+						
+						
+						
+						
+												
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								
+								<h1>Форум Хакеров | Хакерский форум - Ошибка
+									
+									</h1>
+								
+								
+							</div>
+						
+						
+						
+						
+						
+						
+						<!-- main template -->
+						
+
+
+
+
+<div class="errorOverlay">
+	<a class="close OverlayCloser"></a>
+	
+		
+		
+		<div class="baseHtml">
+		
+			<label for="ctrl_0" class="OverlayCloser">Запрашиваемое вложение не найдено.</label>
+		
+		</div>
+	
+</div>
+						
+						
+
+<div class="" style=""><br>
+<center><a href="/conversations/add?to=Garant-Services" target="_blank"> <img src="/data/banners/1.jpg" width="50%" height="50%" /> </a></center>
+<br>
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- adapt -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4076477657977790"
+         data-ad-slot="6658836869"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</br>
+</center></div>
+						
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Ваше имя или e-mail:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">У Вас уже есть учётная запись?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						Нет, зарегистрироваться сейчас.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Да, мой пароль:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Забыли пароль?</a></div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Вход" tabindex="104" data-loginPhrase="Вход" data-signupPhrase="Регистрация" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Запомнить меня</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/attachments/screenshot_2016-05-18-12-43-05-png.45/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+						
+						
+						
+						
+					
+			
+			
+						
+			
+			
+						
+			<div class="breadBoxBottom">
+
+<nav>
+	
+
+
+	
+	<fieldset class="breadcrumb">
+		
+		
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Открыть быструю навигацию"><i class="fa fa-sitemap"></i></a> 
+		
+			
+		<div class="boardTitle"><strong>Форум Хакеров | Хакерский форум</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://help-hack.site" class="crumb"><span>Главная</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+			
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+			
+			
+			
+			
+			
+			
+
+
+
+<div id="MrScrollUp" style="display:none;">
+<div class="MrScrollUp1"></div>
+<div class="MrScrollUp2">
+</div>
+	</div>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+
+<footer>
+	
+
+
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<dl class="choosers">
+			
+				
+				
+				
+					<dt>Язык</dt>
+					<dd><a href="misc/language?redirect=%2Fattachments%2Fscreenshot_2016-05-18-12-43-05-png.45%2F" class="OverlayTrigger Tooltip" title="Выбор языка" rel="nofollow"><span>Russian (RU)</span> <i class="fa fa-globe fa-fw"></i></a></dd>
+				
+							
+			</dl>
+			
+			
+			<ul class="footerLinks">
+			
+				
+					<li><a href="misc/contact" class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}"><i class="fa fa-envelope-o fa-fw"></i> <span>Обратная связь</span></a></li>
+				
+				<li><a href="help/"><i class="fa fa-life-ring fa-fw"></i> <span>Помощь</span></a></li>
+				<li><a href="https://help-hack.site" class="homeLink"><i class="fa fa-home fa-fw"></i> <span>Главная</span></a></li>
+				<li><a href="/attachments/screenshot_2016-05-18-12-43-05-png.45/#headerMover" class="topLink"> <i class="fa fa-arrow-up fa-fw"></i><span>Вверх</span></a></li>
+			
+				<li><a href="help/terms"><i class="fa fa-gavel fa-fw"></i> <span>Условия и правила</span></a></li>
+				
+			
+				<li><a href="forums/-/index.rss" rel="alternate" class="globalFeed" target="_blank"
+					title="RSS-лента для Форум Хакеров | Хакерский форум"><i class="fa fa-rss fa-fw"></i></a></li>
+			
+			</ul>
+			
+						
+			
+		</div>
+	</div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51279658 = new Ya.Metrika2({
+                    id:51279658,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51279658" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</footer>
+
+
+
+
+
+
+<div class="xbOffCanvasContent xbOffCanvasMask"></div>
+<div class="xbOffCanvas slideLeft publicTabs">
+	<ul class="xbOffCanvasList">
+		<li class="navTab xbCloseMenu"><a onclick="return false;" class="slideLeft xbOffCanvasToggle navLink" href="#"><i class="fa fa-bars"></i> <span class="menuText">Закрыть Меню</span></a></li>
+		
+		<!-- home -->
+		
+			<li class="navTab home"><a href="https://help-hack.site" class="navLink">Главная</a></li>
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums ">
+				<a href="https://help-hack.site/" class="navLink">Форум</a>
+					<div class="xbOffCanvasSubMenu">
+					<ul>
+					
+						
+						<li><a href="search/?type=post">Поиск сообщений</a></li>
+						
+						<li><a href="find-new/posts" rel="nofollow">Последние сообщения</a></li>
+					
+					</ul>
+					</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+			
+				<li class="navTab custom-tab-2 ">
+					<a href="categories/Хакинг-Раздел-для-хакера.229/" class="navLink">Haking</a>
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-3 ">
+					<a href="categories/ehlektronnye-dengi.253/" class="navLink">BlackMoney</a>
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-8 ">
+					<a href="categories/banki-obnalichivanie-instrumenty.261/" class="navLink">Banks</a>
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-9 ">
+					<a href="categories/sim-karty-i-mobilnye-perevody.267/" class="navLink">Mobile</a>
+				</li>
+			
+		
+			
+				<li class="navTab custom-tab-11 ">
+					<a href="categories/torgovaja-ploschadka-kuplja-prodazha.273/" class="navLink">Sale</a>
+				</li>
+			
+		
+		
+		
+		
+		<!-- members -->
+		
+			<li class="navTab members ">
+				<a href="https://help-hack.site/members/" class="navLink">Пользователи</a>
+					<div class="xbOffCanvasSubMenu">
+					<ul>
+					
+						<li><a href="members/">Выдающиеся пользователи</a></li>
+						<li><a href="members/list">Зарегистрированные пользователи</a></li>
+						<li><a href="online/">Сейчас на форуме</a></li>
+						<li><a href="recent-activity/">Недавняя активность</a></li>
+						
+					
+					</ul>
+					</div>
+			</li>
+						
+
+		<!-- extra tabs: end -->
+		
+
+		
+
+		<li class="navTab xbOffCanvasExtraLink">		
+	<a href="search/" rel="Menu" class="navLink NoPopupGadget"><i class="fa fa-search"></i> Поиск</a>
+</li>
+
+
+	</ul>
+</div>
+
+
+
+</div>
+
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1548603214,
+		today: 1548586800,
+		todayDow: 1
+	},
+	_lightBoxUniversal: "1",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(39, 39, 39)",
+			opacity: "0.8",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"xb":true,"rellect_favicon":true,"login_bar":true,"fusiongamer_panel":true,"notices":true,"panel_scroller":true,"dark_azucloud":true,"node_list":true,"MrScrollUp":true,"js\/rellect\/FaviconForLinks\/FaviconForLinks.min.js?_v=34e98bcf":true,"js\/mrscrollup\/raketa.js?_v=34e98bcf":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "34e98bcf",
+	_noRtnProtect: false,
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Отмена",
+
+	a_moment_ago:    "только что",
+	one_minute_ago:  "минуту назад",
+	x_minutes_ago:   "%minutes% мин. назад",
+	today_at_x:      "Сегодня, в %time%",
+	yesterday_at_x:  "Вчера, в %time%",
+	day_x_at_time_y: "%day% в %time%",
+
+	day0: "Воскресенье",
+	day1: "Понедельник",
+	day2: "Вторник",
+	day3: "Среда",
+	day4: "Четверг",
+	day5: "Пятница",
+	day6: "Суббота",
+
+	_months: "Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь",
+	_daysShort: "Вс,Пн,Вт,Ср,Чт,Пт,Сб",
+
+	following_error_occurred: "Произошла ошибка",
+	server_did_not_respond_in_time_try_again: "Сервер не ответил вовремя. Пожалуйста, попробуйте снова.",
+	logging_in: "Авторизация",
+	click_image_show_full_size_version: "Нажмите на это изображение для просмотра полноразмерной версии.",
+	show_hidden_content_by_x: "Показать скрытое содержимое от {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+
+</script>
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+$(function() {
+    $('.xbOffCanvasToggle').on('click', function() {
+        $('.xbOffCanvasContainer').toggleClass("marginLeft");
+    });
+    
+    $('.xbOffCanvasSidebarToggle').on('click', function() {
+        $('.xbOffCanvasContainer').toggleClass("marginRight");
+    });
+    
+    $('.xbOffCanvasMask').on('click', function() {
+        $('.xbOffCanvasContainer').removeClass("marginLeft marginRight");
+    });
+
+    $('.publicTabs li').has('.xbOffCanvasSubMenu').prepend('<span class="xbOffCanvasArrow"><i class="xbOffCanvasExpand fa fa-chevron-down"></i></span>');
+    
+    
+    $('.xbOffCanvasSubMenu li div a').unwrap();
+    $('.xbOffCanvasSubMenu li .PopupControl').off('click');
+
+
+    $('.xbOffCanvasArrow').click(function() {
+        $(this).siblings('.xbOffCanvasSubMenu, .secondaryContent.blockLinksList').slideToggle('fast');
+        $(this).children('.xbOffCanvasExpand').toggleClass('fa-flip-vertical ');
+    });
+
+});
+</script>
+
+
+
+
+	<script src="styles/xenbase/jquery.backstretch.min.js"></script>
+	<script>
+		    $.backstretch(["styles/fusiongamer/xenforo/images/orangebg.jpg", "styles/fusiongamer/xenforo/images/purpbg.jpg", "styles/fusiongamer/xenforo/images/greybg.jpg"], {duration: 5500, fade: 1500});
+		    
+	</script>
+
+
+
+
+
+
+
+
+<!--XenBase Current Version : 1.5.14 -->
+<!--Style Version : 1.5.14 -->
+
+
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49478911 = new Ya.Metrika2({
+                    id:49478911,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49478911" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+</body>
+</html>
